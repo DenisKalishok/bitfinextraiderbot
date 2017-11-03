@@ -1,0 +1,22 @@
+{
+  "name": "bitfinextraiderbot",
+  "version": "1.0.0",
+  "description": "bitfinex api traider bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "deniskalishok",
+  "license": "ISC",
+  "engines": {
+    "node": "^6.11.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "node-cron": "^1.2.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "deploy": "gcloud app deploy"
+}
